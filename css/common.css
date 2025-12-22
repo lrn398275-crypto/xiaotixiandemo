@@ -1,0 +1,115 @@
+/* 公共样式 */
+.w {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+/* 网页的头部 */
+/* 1.1 网页的导航栏 */
+.shortcut {
+  height: 52px;
+  background-color: #333;
+}
+
+.shortcut ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 52px;
+}
+
+.shortcut li a {
+  color: #fff;
+}
+
+.shortcut li a:hover {
+  color: #5EB69C;
+}
+
+.shortcut li:first-child a {
+  color: #5EB69C;
+}
+
+.shortcut li i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.shortcut li.line {
+  width: 1px;
+  height: 12px;
+  background-color: #666;
+  margin: 0 15px;
+}
+
+/* 1.2 header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 132px;
+}
+
+.header .logo {
+  width: 200px;
+  height: 88px;
+}
+
+.header .logo h1 {
+  width: 100%;
+  height: 100%;
+}
+
+.header .logo h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  background-image: url(../images/logo.png);
+  overflow: hidden;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 132px;
+  gap: 48px;
+}
+
+.nav li a {
+  display: block;
+
+  height: 40px;
+  line-height: 40px;
+
+}
+
+.nav li a:hover {
+  color: #5EB69C;
+  border-bottom: 2px solid #5EB69C;
+}
+
+/* search */
+.search input {
+  width: 170px;
+  height: 40px;
+  border-bottom: 2px solid #F4F4F4;
+  padding-left: 28px;
+  font-size: 16px;
+}
+
+/* 专门修改搜索框的placeholder */
+.search input::placeholder {
+  font-size: 16px;
+  color: #CCC;
+}
+
+/* car */
+.car i {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+/*  网页的底部  */
