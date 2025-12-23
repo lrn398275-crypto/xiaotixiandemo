@@ -113,3 +113,108 @@
 }
 
 /*  网页的底部  */
+.footer {
+  height: 580px;
+  background-color: #f5f5f5;
+}
+
+.slogn {
+  height: 178px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.slogn ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 178px;
+}
+
+.slogn ul li {
+  display: flex;
+  align-items: center;
+}
+
+.slogn ul li p {
+  font-size: 28px;
+  margin-left: 20px;
+}
+
+.slogn ul li h5 {
+  width: 58px;
+  height: 58px;
+  background: url(../images/sprite.png) no-repeat;
+}
+
+.slogn ul li .two {
+  background-position: 0 -58px;
+}
+
+.slogn ul li .three {
+  background-position: 0 -116px;
+}
+
+.slogn ul li .four {
+  background-position: 0 -174px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 300.5px; */
+  margin-top: 60px;
+}
+
+.service-left {
+  display: flex;
+  gap: 84px;
+
+}
+
+.service-left dl dt {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.service-left dl dd {
+  margin-bottom: 10.5px;
+
+}
+
+.service-left dl dd a {
+  font-size: 16px;
+  color: #96969666;
+}
+
+.service-left dd a i {
+  color: #00be9a;
+}
+
+.service-right ul {
+  display: flex;
+  text-align: center;
+
+}
+
+.service-right ul li {
+  margin-left: 55px;
+  color: #969696;
+}
+
+.service-right ul li p {
+  margin-top: 10px;
+}
+
+.cpyright {
+  text-align: center;
+  margin-top: 100.5px;
+  line-height: 30px;
+  color: #1a1a1a;
+}
+
+.cpyright p a {
+  color: #969696;
+}
+
