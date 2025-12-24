@@ -99,6 +99,17 @@
   padding-left: 28px;
   font-size: 16px;
 }
+.search{
+  position: relative;
+
+}
+.search i{
+  position: absolute;
+  top: 8px;
+  left: 0x;
+  font-size: 24px;
+  color: #CCC;
+}
 
 /* 专门修改搜索框的placeholder */
 .search input::placeholder {
@@ -110,6 +121,18 @@
 .car i {
   font-size: 40px;
   margin-right: 10px;
+}
+.car{
+  position: relative;
+}
+.car span{
+  padding: 2px 5px ;
+ color:#fff;
+  position: absolute;
+ left: 30px;
+background-color: #E26237;
+border-radius: 7.5px;
+
 }
 
 /*  网页的底部  */
